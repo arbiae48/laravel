@@ -1,0 +1,115 @@
+        body{
+			background-image: url(images/background.jpg);
+			background-size: cover;
+			background-position: center;
+			background-attachment: fixed; 
+		}
+		.header{
+			background: rgba(1, 9, 3, 0.81);
+		}
+		.judul{
+			padding-top: 40px;
+		}
+		.judul img{
+			float: left;
+			margin-right: 10px;
+		}
+		.judul h2{
+			color : rgba(19, 240, 15, 1);
+			font-weight: bold;
+			
+		}
+		.alamat{
+			text-align: right;
+			margin-top: 15px;
+			margin-bottom: 15px;
+		}
+		.alamat h4{
+			color: rgba(19, 240, 15, 1);
+			margin: 0px;
+			}
+		.alamat p{
+			color: rgba(19, 240, 15, 1);
+			margin: 0px;
+			}
+		
+		.alamat img{
+			width: 40px;
+			height: 36px;
+		
+		}
+		.menu{
+			background:rgba(4, 4, 6, 0.91);
+			
+		}
+		.menu img{
+			padding-right: 10px;
+		}
+		.menu a:hover{
+			background-color: #1df721;
+		}
+		.submenu{
+			background-color: black;
+		}
+		.footer{
+			background-color: gray;
+		}
+		.footer a{
+			text-align: center;
+		}
+		.copyright{
+			text-align: center;
+		}
+@media ( max-width: 767.98px) {
+	.judul{
+		text-align: center;
+	}
+	.judul img{
+		float: left;
+	}
+	.alamat{
+		text-align: center;
+		margin-top: 5px;
+	}
+	.alamat h4,p{
+		text-align:center;
+	}
+	.alamat img{
+		text-align:center;
+	}
+
+	.card{
+		margin-bottom: 10px;
+	}
+
+	.content img{
+		float: none;
+		margin-right: 40px ;
+	}
+	.teks1 p{
+		text-align: left;
+	}
+	.teks1 h1{
+		text-align: center;
+	}
+	.display-4{
+		text-align: center;
+	}
+	.teks img{
+		text-align: center;
+	}
+	.teks p{
+		text-align: left;
+	}
+	.teks1 img{
+		text-align: center;
+		width: 350px;
+	}
+	.content1,.content2{
+		margin-left: 5px;
+	}
+	.card1,.card2,.card3{
+		width: 390px;
+		margin-left: 20px;
+	}
+}
